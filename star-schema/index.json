@@ -1,12 +1,12 @@
 {
-  "title": "Star-Schema",
-  "description": "",
+  "title": "Introduction to the star schema",
+  "description": "In this scenario, you'll learn the basics of the star schema and experience it in action.",
   "difficulty": "beginner",
   "time": "10",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Star schema overview",
         "text": "step1.md"
       },
       {
