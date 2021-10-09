@@ -10,7 +10,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Example schema",
         "text": "step2.md"
       },
       {
@@ -34,7 +34,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu:2004"
