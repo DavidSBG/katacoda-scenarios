@@ -29,8 +29,7 @@
     ],
     "assets": {
       "host01": [
-          {"file": "sampleData.sql", "target": "/usr/local/bin/", "chmod": "+x"},
-          {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+          {"file": "sampleData.sql", "target": "/usr/local/bin/", "chmod": "+x"}
       ]
     },
     "intro": {

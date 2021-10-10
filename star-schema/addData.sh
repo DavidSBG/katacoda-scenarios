@@ -1,1 +1,1 @@
-\i assets/sampleData.sql
+\i sampleData.sql
