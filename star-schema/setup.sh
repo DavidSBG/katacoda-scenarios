@@ -1,2 +1,2 @@
-docker run --name postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
-docker exec -it postgres bash
+docker run --name starschema -e POSTGRES_PASSWORD=postgres -d -p p 5432:5432 postgres
+docker exec -it starschema bash
