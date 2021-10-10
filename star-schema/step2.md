@@ -26,3 +26,12 @@ CREATE TABLE customer_dim
    customer_id serial PRIMARY KEY
 );
 ```{{execute T1}}
+
+```
+CREATE TABLE sales_fact
+(
+   sales_id serial PRIMARY KEY,
+   product_id int,
+   FOREIGN KEY (product_id) REFERENCES product_dim(product_id);
+);
+```{{execute T1}}
