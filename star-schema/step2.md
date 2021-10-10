@@ -36,6 +36,8 @@ CREATE TABLE sales_fact
    date_id int,
    city_id int,
    customer_id int,
+   quantity int,
+   sales float,
    FOREIGN KEY (product_id) REFERENCES product_dim(product_id),
    FOREIGN KEY (country_id) REFERENCES country_dim(country_id),
    FOREIGN KEY (date_id) REFERENCES date_dim(date_id),
