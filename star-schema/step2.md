@@ -1,11 +1,6 @@
 ![star schema](./assets/star_schema.jpg)
 
 ```
-psql
-```{{execute T1}}
-
-
-```
 CREATE TABLE product_dim
 (
    product_id serial PRIMARY KEY,
