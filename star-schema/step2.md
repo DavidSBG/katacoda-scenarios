@@ -25,4 +25,4 @@ CREATE TABLE customer_dim
 (
    customer_id serial PRIMARY KEY
 );
-```{{execute T2}}
+```{{execute T1}}
