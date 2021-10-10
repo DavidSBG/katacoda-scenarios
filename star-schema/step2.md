@@ -32,6 +32,14 @@ CREATE TABLE sales_fact
 (
    sales_id serial PRIMARY KEY,
    product_id int,
-   FOREIGN KEY (product_id) REFERENCES product_dim(product_id)
+   country_id int,
+   date_id int,
+   city_id int,
+   customer_id int,
+   FOREIGN KEY (product_id) REFERENCES product_dim(product_id),
+   FOREIGN KEY (country_id) REFERENCES country_dim(country_id),
+   FOREIGN KEY (date_id) REFERENCES date_dim(date_id),
+   FOREIGN KEY (city_id) REFERENCES city_dim(city_id),
+   FOREIGN KEY (customer_id) REFERENCES customer_dim(customer_id)
 );
 ```{{execute T1}}
