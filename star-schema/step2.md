@@ -32,6 +32,6 @@ CREATE TABLE sales_fact
 (
    sales_id serial PRIMARY KEY,
    product_id int,
-   FOREIGN KEY (product_id) REFERENCES product_dim(product_id);
+   FOREIGN KEY (product_id) REFERENCES product_dim(product_id)
 );
 ```{{execute T1}}
