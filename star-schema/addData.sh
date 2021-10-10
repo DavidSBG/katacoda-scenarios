@@ -1,0 +1,1 @@
+\i assets/sampleData.sql
