@@ -11,7 +11,8 @@
       },
       {
         "title": "Example schema",
-        "text": "step2.md"
+        "text": "step2.md",
+        "code": "schema_creation.sh"
       },
       {
         "title": "Step 3",
