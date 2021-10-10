@@ -27,6 +27,11 @@
         "text": "step5.md"
       }
     ],
+    "assets": {
+      "host01": [
+          {"file": "sampleData.sql", "target": "/usr/local/bin/", "chmod": "+x"}
+      ]
+    },
     "intro": {
       "code": "setup.sh",
       "text": "intro.md"
