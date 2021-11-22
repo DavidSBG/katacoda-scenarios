@@ -7,15 +7,15 @@ SELECT product_dim.productname, sales_fact.quantity FROM sales_fact, product_dim
 Now try to list the ten customers(their ids) who bought the most products in all time.
 The result should look something like this:
 
-| customer_id | quantity |
-|-------------|-----|
-|         13  | 280 |
-|         12  | 210 |
-|          9  | 186 |
-|         10  | 181 |
-|          3  | 167 |
-|          4  | 150 |
-|          8  | 137 |
-|          5  | 133 |
-|          1  | 133 |
-|          2  | 110 |
+ customer_id | quantity 
+-------------+----------
+          13 |      280
+          12 |      210
+           9 |      186
+          10 |      181
+           3 |      167
+           4 |      150
+           8 |      137
+           5 |      133
+           1 |      133
+           2 |      110
