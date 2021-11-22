@@ -8,7 +8,9 @@ Now try to list the ten customers(their ids) who bought the most products in all
 The result should look something like this:
 
  customer_id | quantity 
+
 -------------+----------
+
           13 |      280
           12 |      210
            9 |      186
