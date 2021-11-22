@@ -1,12 +1,12 @@
 To broaden your understanding of the star schema we will create an example schema.
 
-Run the following script to enter the postgres terminal. It should look like: "postgres=#"
+Run the following script to enter the postgres terminal. Afterwards it should look like: "postgres=#"
 ```
 psql
 ```{{execute T1}}
 
 The tables shown in the image below need to be created.
-At the center of our schema is the fact table sales_fact, further described by five dimension tables country_dim, date_dim, city_dim, customer_dim and product_dim
+At the center of our schema is the fact table sales_fact, further described by five dimension tables country_dim, date_dim, city_dim, customer_dim and product_dim.
 
 
 ![star schema](./assets/star_schema.jpg)
@@ -60,4 +60,4 @@ CREATE TABLE sales_fact
 );
 ```{{execute T1}}
 
-Now our schema is create and it can be tried out.
+Our schema is created and now can be tried out.
