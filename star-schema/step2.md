@@ -1,5 +1,13 @@
 ![star schema](./assets/star_schema.jpg)
 
+To broaden your understanding of the star schema we will createn anexample schema.
+
+Run the following script to enter the postgres terminal. It should look like: "postgres=#"
+```
+psql
+```{{execute T1}}
+
+
 ```
 CREATE TABLE product_dim
 (
