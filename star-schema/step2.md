@@ -7,6 +7,8 @@ psql
 
 The tables shown in the image below need to be created.
 At the center of our schema is the fact table sales_fact, further described by five dimension tables country_dim, date_dim, city_dim, customer_dim and product_dim
+
+
 ![star schema](./assets/star_schema.jpg)
 
 Try to understand and run the following script to create the dimension tables.
