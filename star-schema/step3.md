@@ -6,6 +6,14 @@ SELECT product_dim.productname, sales_fact.quantity FROM sales_fact, product_dim
 
 Now try to list the ten customers(their ids) who bought the most products in all time.
 The result should look something like this:
+
+| customer_id | sum |   |   |   |
+|-------------|-----|---|---|---|
+| 13          | 280 |   |   |   |
+|             |     |   |   |   |
+|             |     |   |   |   |
+
+
  customer_id | sum 
 -------------+-----
           13 | 280
