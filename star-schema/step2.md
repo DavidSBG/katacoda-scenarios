@@ -1,13 +1,15 @@
-![star schema](./assets/star_schema.jpg)
-
-To broaden your understanding of the star schema we will createn anexample schema.
+To broaden your understanding of the star schema we will create an example schema.
 
 Run the following script to enter the postgres terminal. It should look like: "postgres=#"
 ```
 psql
 ```{{execute T1}}
 
+The tables shown in the image below need to be created.
+At the center of our schema is the fact table sales_fact, further described by five dimension tables country_dim, date_dim, city_dim, customer_dim and product_dim
+![star schema](./assets/star_schema.jpg)
 
+Try to understand and run the following script to create the dimension tables.
 ```
 CREATE TABLE product_dim
 (
@@ -35,6 +37,8 @@ CREATE TABLE customer_dim
 );
 ```{{execute T1}}
 
+
+Now create the fact table.
 ```
 CREATE TABLE sales_fact
 (
@@ -53,3 +57,5 @@ CREATE TABLE sales_fact
    FOREIGN KEY (customer_id) REFERENCES customer_dim(customer_id)
 );
 ```{{execute T1}}
+
+Now our schema is create and it can be tried out.
