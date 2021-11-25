@@ -14,12 +14,12 @@
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Using the schema",
         "text": "step3.md",
         "code": "addData.sh"
       },
       {
-        "title": "Step 4",
+        "title": "Star schema in comparison",
         "text": "step4.md"
       },
       {
