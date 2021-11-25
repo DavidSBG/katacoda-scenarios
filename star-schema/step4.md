@@ -1,4 +1,5 @@
 The star schema is used over other schemas primarily due to its presentation of data in a standard and intuitive framework which makes it easily understandable for the end users[4]. Additionally it has a efficient and fast execution of complex sql statements, due to the limited amount of required joins, which is crutial in the data mart layer[4]. 
+
 The star schema does not make use of the Boyce-Codd normal form[1] thereby can include anomalies and redundancies.
 
 ### Outlook: Further dimensional models
